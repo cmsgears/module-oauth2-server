@@ -1,0 +1,20 @@
+{
+	"name": "cmsgears/module-oauth2-server",
+	"description": "The OAuth2 Server Module required for CMSGears based projects. It provides implementation of OAuth2 specification for Server.",
+	"homepage": "http://www.cmsgears.org",
+	"type": "package",
+	"keywords": [ "yii", "yii2", "cmsgears", "module", "oauth", "oauth2", "auth" ],
+	"license": "GPLv3",
+	"support": {
+        "resources": "http://www.cmsgears.org"
+	},
+	"autoload": {
+		"psr-4": {
+			"cmsgears\\oauth2\\server\\": ""
+		}
+	},
+    "require": {
+        "php": ">=7.0.0",
+        "cmsgears/module-core": "*"
+    }
+}
